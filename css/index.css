@@ -261,7 +261,6 @@ header>.down-nav {
     text-align: center;
 
 }
-
 header>.down-nav li {
     display: block;
 }
@@ -274,6 +273,13 @@ header>.down-nav a {
 }
 header>.down-nav a:hover {
     color: #e9c06c;
+}
+
+.tab-container > li{
+    display: none;
+}
+.tab-container > .active{
+    display: block;
 }
 
 section>.menu {
@@ -751,20 +757,20 @@ section#commend .commend-tab>li.cur {
     border-bottom: 3px solid #D1AB57;
 }
 
-section>.video-commend {
+section .video-commend {
     display: flex;
     justify-content: space-between;
 
 }
 
-section>.video-commend li {
+section .video-commend li {
     width: 190px;
     height: 155px;
     position: relative;
     cursor: pointer;
 }
 
-section>.video-commend li .video-play {
+section .video-commend li .video-play {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -776,32 +782,32 @@ section>.video-commend li .video-play {
     text-align: center;
 }
 
-section>.video-commend li .video-play:hover {
+section .video-commend li .video-play:hover {
     opacity: 1;
 }
 
-section>.video-commend li .video-play img {
+section .video-commend li .video-play img {
     max-width: 65px;
     margin-top: 20%;
 
 }
 
-section>.video-commend li:hover {
+section .video-commend li:hover {
     background: #EEEEEE;
 
 
 }
 
-section>.video-commend li:hover p {
+section .video-commend li:hover p {
     color: #c49f58;
 }
 
-section>.video-commend li img {
+section .video-commend li img {
     width: 100%;
 
 }
 
-section>.video-commend li span {
+section .video-commend li span {
     display: block;
     position: absolute;
     top: 82px;
@@ -813,7 +819,7 @@ section>.video-commend li span {
     padding-right: 5px;
 }
 
-section>.video-commend li p {
+section .video-commend li p {
     display: block;
     height: 40px;
     line-height: 20px;
